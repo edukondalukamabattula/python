@@ -1,9 +1,12 @@
-string=input("enter the string")
-p=""
-for i in string:
-    p=i+p
-if(string==p):
-    print("palindrome")
-
+temp=" "
+word=input("enter a string")
+i=len(word)
+while i>0:
+    temp=temp+word[i-1]
+    i=i-1
+print("the reveresed string is: ",temp)
+if(temp==word):
+ print("is not a palindrome")
 else:
-    print("not a palindrome")
+ print("is a palindrome")
+
