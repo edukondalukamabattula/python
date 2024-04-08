@@ -1,0 +1,16 @@
+import array
+a=array.array('i',[])
+list =[1,2,3,4,5,6]
+a.fromlist(list)
+print(a)
+a.append(7)
+print("append",a)
+a.insert(0,7)
+print("insert",a)
+a.pop(2)
+print("pop",a)
+print("index",a.index(4))
+a.reverse()
+print("reverse",a)
+print("count",a.count(6))
+
