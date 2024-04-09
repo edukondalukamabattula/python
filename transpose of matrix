@@ -1,0 +1,15 @@
+first =[[1,2,3],
+        [3,4,5],
+        [6,7,8]]
+third=[[0,0,0],
+       [0,0,0],
+       [0,0,0]]
+for i in range(len(first)):
+    for j in range(len(third)):
+
+     third[j][i]=first[i][j]
+     print("transopose matrix:")
+for i in third :
+      for j in i:
+          print(j,end=' ')
+      print()
