@@ -1,0 +1,10 @@
+rows=[[1,2,3],[4,5,6],[7,8,9]]
+column=[[1,2,3],[4,3,2],[5,6,7]]
+result=[[0,0,0],[0,0,0],[0,0,0]]
+for i in range(len(rows)):
+    for j in range(len(column)):
+        result[i][j]=rows[i][j]*column[i][j]
+for i in result:
+    for j in i:
+        print(j,end=' ')
+    print()
