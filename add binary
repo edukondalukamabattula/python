@@ -1,0 +1,4 @@
+a=input("enter the number")
+b=input("enter ther number")
+result=bin(int(a,2)+int(b,2))
+print(result[2:])
